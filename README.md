@@ -52,7 +52,7 @@ javac *.java
 #### **3️⃣ Run CSP (Graph Coloring)**
 
 java CSP csp_small.txt
-> 📄 You can replace `csp_small.txt` with `astar_medium.txt` to test larger graphs.
+> 📄 You can replace `csp_small.txt` with `csp_tight.txt` to test larger graphs.
 
 ---
 
