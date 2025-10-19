@@ -42,32 +42,17 @@ javac *.java
 #### **2️⃣ Run A* Search (Three Modes)**
 
 **Uniform Cost Search (UCS):**
-```bash
-java AStar ../inputs/astar_small.txt UCS
-```
 
-**A* with Euclidean heuristic:**
-```bash
-java AStar ../inputs/astar_small.txt EUCLIDEAN
-```
-
-**A* with Manhattan heuristic:**
-```bash
-java AStar ../inputs/astar_small.txt MANHATTAN
-```
-
+ java AStar astar_small.txt
+ 
 > 📄 You can replace `astar_small.txt` with `astar_medium.txt` to test larger graphs.
 
 ---
 
 #### **3️⃣ Run CSP (Graph Coloring)**
-```bash
-java CSP ../inputs/csp_easy.txt
-```
-or
-```bash
-java CSP ../inputs/csp_tight.txt
-```
+
+java CSP csp_small.txt
+> 📄 You can replace `csp_small.txt` with `astar_medium.txt` to test larger graphs.
 
 ---
 
